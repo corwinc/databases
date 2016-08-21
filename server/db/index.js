@@ -14,13 +14,5 @@ connection.connect(function(err) {
   if (err) { throw err; }
 });
 
-// connection.query(query, function(err, result) {
-//   if (err) {
-//     throw err;
-//   } else {
-//     // send response 201
-//   }
-// });
-
 module.exports = connection;
 
