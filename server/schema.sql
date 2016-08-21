@@ -15,7 +15,7 @@ CREATE TABLE roomnames (
 CREATE TABLE messages (
   id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
   username_id int,
-  roomname TEXT,
+  roomname_id int,
   message TEXT,
   FOREIGN KEY(username_id)
     REFERENCES usernames(id),
